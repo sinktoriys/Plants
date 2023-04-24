@@ -1,5 +1,7 @@
 @import"./variables";
 @import"./header";
+@import"./main";
+
 *{
     box-sizing: border-box;
 }
@@ -10,16 +12,15 @@ font-family: 'Poppins', sans-serif;
 display: flex;
 flex-direction: column;
 min-height: 100vh;
-max-width: 1400px;
+max-width: 1410px;
+width: 1410px;
 }
 .container{
-
 width: 100%;
 margin: 0 auto;
 }
 .row{
-    display: flex;
-    margin: 0 -15px;    
+    display: flex;       
 }
 .col-1{
     max-width: 8.33333333%; 
@@ -68,234 +69,17 @@ margin: 0 auto;
 a{
     color: black;
 }
- .header{
-    display: flex;
-    height: 100px;
-    align-items: center; 
-    height: 144px;
-    font-size: 14px;
-}  
-//top header
-.header-top-information{
-    width: 100%;
-    display: flex;
-    background-color: #0C4B35;
-    padding-left: 251px;
-    padding-right: 251px;
-    line-height: 25px;
-    height: 59px;
-}
-.row-header-top{
-    height: 59px;
-}
-.letter-image{
-    display: inline-block;
-    position: relative;
-    width: 313px; 
-    height: 29px;
-    margin: 0px;
-    line-height: 0px;
-    top: 21px;
-}
-.letter1{
-    position: absolute;
-    padding: 22.44px 11.1px;
-    top: -21px;
-    left: -5px;
-}
-.letter2{
-    position: absolute;
-    padding: 22.44px 11.1px;
-    left: -5px;
-    top: -11px;
-}
-.letter3{
-    position: absolute;
-    padding: 7.77px 15.12px;
-    left: 6px;
-    top: -5px;
-}
-.letter4{
-    position: absolute;
-    padding: 7.77px 15.12px;
-    left: -9px;
-    top: -5px;
-}
-.email{
-    padding-left: 38px;    
-    position: absolute;
-    top: -6px;
-}
-.phone-image{
-    display: inline-block;
-    position: relative;
-    width: 163px; 
-    height: 29px;
-    margin: 0px; 
-    line-height: 0px;
-    top: 16px;
-    right: 37px;
-}
-
-.phone{
-    height: 25px;
-    width:25px;
-    margin-top: 17px;
-    position: absolute;
-    top: -14px;
-    right: 124px
-}
-.number{
-    left: 30px;
-    position: absolute;
-    top: 0px;
-    left: 36px;
-}
-.place-image{
-    display: inline-block;
-    position: relative;
-    width: 279px; 
-    height: 29px;
-    margin: 0px;
-    left: 436px;
-    top: -21px;
-} 
-
-.place{
-    height: 16.11px ;
-    width:22.34px;
-    margin-top: 15px;
-    height: 16.11px;
-    width: 22.34px;
-    margin-top: 15px;
-    position: absolute;
-    top: -9px;
-}
-.place1{
-    height: 16.11px ;
-    width:22.34px;
-    margin-top: 15px;
-}
-.adress{
-    position: absolute;
-    top: -11px;
-    left: 22px;
-}
-.language{
-    position: relative;
-    top: 6px;
-}
-
-.arrow-white{
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 6px;
-    right: 1px;
-}
-//bottom header
-.header-bottom-information{
-width: 100%;
- display: flex;
-background-color:#FFFFFF;
-color: black;
-padding-left: 251px;
-padding-right: 251px;
-line-height: 25px;
-width: 1408px;
-height: 85px;
-}
-.row-header-bottom{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-height: 85px;
-}
- .menu{
-    display: flex;
-    gap: 22px;
-    list-style-type: none; 
-    line-height: 52px; 
-    height: 50px; 
-    padding-left: 94px;
-    
- }
- .menu-items{
-
-    text-decoration: none;
-    height: 50px;
-    position: relative;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
- }
- .header-logo{
-    position: relative;
-    height: 55px;
-    width: 120px;
-    top: 10px;
- }
- .logo{
-    position: absolute;
-    top: 10px;
- }
- .logo1{
-    position: absolute;
-    left: 95px;
-}
-.arrow-black{
-   width: 10px;
-   height: 10px;    
-   position: absolute;
-   top: 7px;
-}
-.header-button{
-position: relative;
-}
-.button-call{
-   background-color:#00730C ;
-   color: #FFFFFF;
-   border-radius: 5px;   
-   padding: 10px 35px;
-   padding-top: 16px;
-   margin-top: 14px;
-   border-style: none; 
-   position: absolute;
-   padding-left: 54px;
-   font-family: 'Nunito Sans', sans-serif;
-   font-size: 18px;
-   line-height: 24px;
-   width: 170px;
-   height: 50px;
-}
- .button-picture1{
-    position: absolute;
-    width:19.39px;
-    height:15.82px;
-    left: 38px;
-    top: 14px;
- }
- .button-picture2{
-   position: absolute;
-   width:22.38px;
-   height:22.32px;
-   left: 25px;
-    top: 17px
- }
 
 
-
-
-
-.main{
-    background-color: aqua;
-    padding: 30px;
-    flex-grow: 1;
-}
 .footer{
     background-color: grey;
     padding: 30px;
     flex-shrink: 0;
+}
+@media(max-width:1200px){
+    /* mobile version */
+    .email,.number,.adress{ 
+    display: none;
+    
+}
 }

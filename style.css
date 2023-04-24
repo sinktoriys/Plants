@@ -1,81 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  max-width: 1400px;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  margin: 0 -15px;
-}
-
-.col-1 {
-  max-width: 8.33333333%;
-  flex: 0 0 8.33333333%;
-}
-
-.col-2 {
-  max-width: 16.66667%;
-  flex: 0 0 16.66667%;
-}
-
-.col-3 {
-  max-width: 25%;
-  flex: 0 0 25%;
-}
-
-.col-4 {
-  max-width: 33.33333%;
-  flex: 0 0 33.33333%;
-}
-
-.col-6 {
-  max-width: 50%;
-  flex: 0 0 50%;
-}
-
-.col-8 {
-  display: flex;
-  max-width: 66%;
-  flex: 0 0 66%;
-}
-
-.col-9 {
-  max-width: 75%;
-  flex: 0 0 75%;
-}
-
-.col-10 {
-  max-width: 83.3333333%;
-  flex: 0 0 83.3333333%;
-}
-
-.col-11 {
-  max-width: 91.6666667%;
-  flex: 0 0 91.6666667%;
-}
-
-p {
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-a {
-  color: black;
-}
-
 .header {
   display: flex;
   height: 100px;
@@ -111,7 +33,7 @@ a {
 .letter1 {
   position: absolute;
   padding: 22.44px 11.1px;
-  top: -21px;
+  top: -24px;
   left: -5px;
 }
 
@@ -119,21 +41,21 @@ a {
   position: absolute;
   padding: 22.44px 11.1px;
   left: -5px;
-  top: -11px;
+  top: -14px;
 }
 
 .letter3 {
   position: absolute;
   padding: 7.77px 15.12px;
   left: 6px;
-  top: -5px;
+  top: -8px;
 }
 
 .letter4 {
   position: absolute;
   padding: 7.77px 15.12px;
   left: -9px;
-  top: -5px;
+  top: -8px;
 }
 
 .email {
@@ -175,8 +97,8 @@ a {
   width: 279px;
   height: 29px;
   margin: 0px;
-  left: 436px;
-  top: -21px;
+  left: -52px;
+  top: 18px;
 }
 
 .place {
@@ -299,6 +221,10 @@ a {
   height: 50px;
 }
 
+.button-call:hover {
+  background-color: #0C4B35;
+}
+
 .button-picture1 {
   position: absolute;
   width: 19.39px;
@@ -316,13 +242,231 @@ a {
 }
 
 .main {
-  background-color: aqua;
-  padding: 30px;
+  background: url(images/background-hero.png);
   flex-grow: 1;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-image {
+  padding-top: 46px;
+}
+
+.hero-image-picture {
+  height: 600px;
+  width: 653px;
+}
+
+.hero-text {
+  margin-left: 251px;
+  margin-top: 133px;
+}
+
+.hero-text-image {
+  position: relative;
+}
+
+.hero-plant-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 201px;
+}
+
+.h1-hero1 {
+  color: #212529;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 79.11px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.h1-hero2 {
+  color: #00730C;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 79.11px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.hero-lorem {
+  color: #676767;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.button-hero-area {
+  margin-left: 251px;
+  position: relative;
+}
+
+.button-hero {
+  background: #00730C;
+  border-radius: 5px;
+  color: #FFFFFF;
+  width: 175px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 35px;
+  gap: 10px;
+}
+
+.button-hero:hover {
+  background-color: #0C4B35;
+}
+
+.button-hero-pharagraph {
+  color: #676767;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  position: absolute;
+  left: 186px;
+  top: -6px;
+}
+
+.custorms-hero-type {
+  display: flex;
+  margin-left: 251px;
+  margin-top: 51px;
+  gap: 100px;
+}
+
+.happy-custorms, .garden-created, .team-members {
+  position: relative;
+}
+
+.circle {
+  color: #212529;
+  width: 36px;
+  height: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+  border-radius: 35px;
+  width: 50px;
+  height: 50px;
+  align-items: flex-start;
+  padding: 15px 7px;
+}
+
+.circle-text {
+  color: #212529;
+  width: 89px;
+  height: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 50px;
+  top: -8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1410px;
+  width: 1410px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  max-width: 8.33333333%;
+  flex: 0 0 8.33333333%;
+}
+
+.col-2 {
+  max-width: 16.66667%;
+  flex: 0 0 16.66667%;
+}
+
+.col-3 {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.col-4 {
+  max-width: 33.33333%;
+  flex: 0 0 33.33333%;
+}
+
+.col-6 {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.col-8 {
+  display: flex;
+  max-width: 66%;
+  flex: 0 0 66%;
+}
+
+.col-9 {
+  max-width: 75%;
+  flex: 0 0 75%;
+}
+
+.col-10 {
+  max-width: 83.3333333%;
+  flex: 0 0 83.3333333%;
+}
+
+.col-11 {
+  max-width: 91.6666667%;
+  flex: 0 0 91.6666667%;
+}
+
+p {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  color: black;
 }
 
 .footer {
   background-color: grey;
   padding: 30px;
   flex-shrink: 0;
+}
+
+@media (max-width: 1200px) {
+  /* mobile version */
+  .email, .number, .adress {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
