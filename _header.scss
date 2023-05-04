@@ -7,11 +7,11 @@
 }  
 //top header
 .header-top-information{
-    width: 100%;
+    // width: 100%;
     display: flex;
     background-color:$dark-green;
-    padding-left: 251px;
-    padding-right: 251px;
+    // padding-left: 251px;
+    // padding-right: 251px;
     line-height: 25px;
     height: 59px;
 }
@@ -21,7 +21,7 @@
 .letter-image{
     display: inline-block;
     position: relative;
-    width: 313px; 
+    width: 330px; 
     height: 29px;
     margin: 0px;
     line-height: 0px;
@@ -54,12 +54,12 @@
 .email{
     padding-left: 38px;    
     position: absolute;
-    top: -6px;
+    top: 10px;
 }
 .phone-image{
     display: inline-block;
     position: relative;
-    width: 163px; 
+    width: 184px; 
     height: 29px;
     margin: 0px; 
     line-height: 0px;
@@ -73,12 +73,12 @@
     margin-top: 17px;
     position: absolute;
     top: -14px;
-    right: 124px
+    right: 147px
 }
 .number{
     left: 30px;
     position: absolute;
-    top: 0px;
+    top: 17px;
     left: 36px;
 }
 .place-image{
@@ -108,20 +108,24 @@
 }
 .adress{
     position: absolute;
-    top: -11px;
+    top: 3px;
     left: 22px;
 }
 .language{
     position: relative;
     top: 6px;
 }
+.english{
+    padding-top: 13px;
+    padding-left: 75px
+}
 
 .arrow-white{
     width: 15px;
     height: 15px;
     position: absolute;
-    top: 6px;
-    right: 1px;
+    top: 19px;
+    right: 76px;
 }
 //bottom header
 .header-bottom-information{
@@ -129,8 +133,8 @@ width: 100%;
  display: flex;
 background-color:#FFFFFF;
 color: black;
-padding-left: 251px;
-padding-right: 251px;
+// padding-left: 251px;
+// padding-right: 251px;
 line-height: 25px;
 width: 1408px;
 height: 85px;
@@ -145,9 +149,9 @@ height: 85px;
 }
  .menu{
     display: flex;
-    gap: 22px;
+    gap: 82px;
     list-style-type: none; 
-    line-height: 52px; 
+    line-height: 80px; 
     height: 50px; 
     padding-left: 94px;
     
@@ -166,6 +170,7 @@ height: 85px;
     height: 55px;
     width: 120px;
     top: 10px;
+    left: 11px;
  }
  .logo{
     position: absolute;
