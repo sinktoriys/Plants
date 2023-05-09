@@ -1,0 +1,194 @@
+.main-part3{
+    height: 1100px; 
+    padding-top: 85px;   
+    }
+    .main-three-images{
+    position: relative;
+    left: 18px;
+    }
+    .main-image1{
+    position: absolute;
+    width: 450px;
+    height: 706px;
+    background-color:$light-green;
+    }
+    .main-image2{
+    position:absolute;
+    width: 601px;
+    height: 741px;
+    top: 33px;
+    left: 23px;
+    }
+    .main-image2-foto{    
+        width: 601px;
+        height: 741px;
+    }
+    .main-image3{
+    position: absolute;
+    width: 456px;
+    height: 356px;
+    left: 228px;
+    top: 600px;
+    }
+    .main-image3-foto{
+    width: 456px;
+    height: 356px;
+    }
+    .main-text-part3{
+        padding-left: 48px;
+    }
+    .string{
+    display: flex;
+    gap: 13px;
+    padding-top: 25px;
+    }
+    .main-text1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    color: $light-green;
+    margin-bottom: 0px;
+    }
+    .main-text2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    color: black; 
+    margin-bottom: 0px;
+    }
+    .main-text3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    color: black; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+    .main-lorem-part3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #676767;
+    padding-top: 20px;
+    }
+    .main-information-part3{
+    padding-left: 88px;
+    }
+    .main-circles-part3,.main-circles1-part3{
+    display: flex;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    }
+    
+    .main-circle-part3{
+    display: flex;
+    width: 67px;
+    height: 67px;
+    position: relative;
+    background: #00730C;
+    border-radius: 50%;
+    }
+    .circle-area-part3{
+    width: 54.61px;
+    height: 42.11px;
+    position: absolute;
+    background-image: url(images/part3/background.svg);
+    background-repeat: no-repeat;
+    top: 13px;
+    left: 5px;
+    }
+    
+    .our-mission1{
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    }
+    .our-mission2{
+    position: absolute;
+    top: 5px;
+    }
+    .our-mission3{
+    position: absolute;
+    top: -3px;
+    left: 7px;
+    }
+    .our-vision1{
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    width: 49.51px;
+    height: 35.59px;  
+    }
+    .our-vision2{
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    width: 16.67px;
+    height: 21.67px;  
+    }
+    .support-team1{
+        position: absolute;
+        top: -6px;
+        left: 5px;       
+    }
+    .support-team2{
+        position: absolute;
+        top: 5px;
+        left: 9px;      
+    }
+    .support-team3{
+        position: absolute;
+        top: 5px;
+        left: 21px;     
+    }
+    .clients-trust1{
+    position: absolute;
+    top: 17px;
+    left: 5px; 
+    }
+    .clients-trust2{
+    position: absolute;
+    top: -7px;
+    left: 10px; 
+    }
+    .main-circle-text1,.main-circle-text2,.main-circle-text3,.main-circle-text4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 63px;   
+    text-transform: capitalize;   
+    color: #212529;
+    padding-right: 28px;
+    padding-left: 14px;
+        }
+    .main-button-part3{
+    padding-left: 48px;
+    padding: 13px 35px;
+    }    
+    .button-discover{
+    gap: 10px;
+    width: 190px;
+    height: 50px;
+    background: #00730C;
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    }

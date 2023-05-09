@@ -1,0 +1,101 @@
+//part4
+.main-part4{
+    height: 660px;
+    background-color: $dark-green;
+}
+.why-chose-part4{
+margin-left: 11px;
+margin-top: 67px;
+}
+.h1-why-chose{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 61px; 
+color: #FFFFFF;
+margin-bottom: 30px;    
+}
+.why-chose-lorem{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;      
+color: #FFFFFF;
+}
+.whyChose-information-part4{
+margin-left: 11px;
+margin-bottom: 55px;
+}
+.whyChose-circles-part4{
+padding-top: 50px;
+display: flex;
+gap: 170px;
+}
+.whyChose-circles2-part4{
+padding-top: 20px;
+display: flex;
+gap: 198px;
+}
+.whyChose-circle-part4{
+position: relative;
+display: flex;
+}
+.whyChose-circle1,.whyChose-circle2,.whyChose-circle3,.whyChose-circle4{
+height: 30px;
+width: 30px;
+top: 5px;
+left: 5px;
+background-color:#FFFFFF;
+border-radius: 50%;
+position: relative;
+}
+.green-arrow-ok{
+position: absolute;
+top: 7px;
+left: 5px;
+}
+.whyChose-circle-text1,.whyChose-circle-text2,.whyChose-circle-text3,.whyChose-circle-text4{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;   
+text-transform: capitalize;      
+color: #FFFFFF;
+padding-left: 18px;
+}
+.whyChose-button-part4{
+margin-left: 11px;   
+}
+.button-discover-part4{
+gap: 10px;
+width: 190px;
+height: 50px;
+background-color:$light-green;
+border-radius: 5px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-transform: capitalize;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+}
+.button-discover-part4:hover{
+    background-color: $dark-green;
+    }
+.main-image-part4{
+position: relative;
+}
+.main-picture-part4{
+background-image: url(images/main-picture-part4.png);
+position: absolute;
+top:111px;
+left: 32px;
+width: 672px;
+height: 426px;
+}
