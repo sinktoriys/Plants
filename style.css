@@ -2022,6 +2022,16 @@
   color: #FFFFFF;
 }
 
+.main-part6 {
+  background-image: url(images/part-6/background.png);
+  display: block;
+}
+
+.slider {
+  font-size: 50px;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -2030,9 +2040,6 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  max-width: 1410px;
-  margin: 0;
 }
 
 .container {
@@ -2118,4 +2125,8 @@ a {
   body, footer {
     width: 1400px;
   }
+}
+.slider {
+  font-size: 20px;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
