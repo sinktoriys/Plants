@@ -1,8 +1,8 @@
-// $(".slider").slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3,
-// });
 $(".slider").slick({
-  dots: true,
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
 });
+// $(".slider").slick({
+//   dots: true,
+// });
