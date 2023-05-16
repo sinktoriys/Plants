@@ -1,29 +1,181 @@
 .main-part6{
-    background-image: url(images/part-6/background.png);
-    display: block;
+background-image: url(images/part-6/background-mint.png);
+display: block;
+width: 1400px;
+height: 455px;
 }
 .slider {
-    font-size: 50px;  
-    color:black;
-    text-align: center;
-    // // padding: 150px 0;
-    // margin: 0 auto;
-    width: 1400px;
-    height: 300px;
-  }
- 
- .slider-picture{
+font-size: 50px;  
+color:black;
+text-align: center;    
+width: 1400px;
+height: 300px;
+}
+.slider-image{
+padding-bottom: 20px;
 width: 193px;
 height: 276px;
  }
+.slider-picture{
+position: absolute;
+width: 193px;
+height: 276px;
+z-index: 1;
+top: 54px;
+} 
+.slider-green-background{
+position: relative;
+left: 10px;
+top: 88px;
+width: 193px;
+height: 181px;
+background: linear-gradient(6.68deg, #00730C 4.95%, rgba(251, 246, 238, 0) 264.79%);
+border-radius: 30px;
+ }
+.slider-background{
+position: relative;
+left: 10px;
+top: 88px;
+}
+.slider-grey-background{
+position: absolute;
+top: 69px;
+ }
+ .slick-slide img{
+   display: grid;
+ }
  .slider1 .slick-slide .slick-current .slick-active{
-    display: flex;
+display: flex;
+position: relative;
+width: 690px;
+height: 341px;
  }
- .main-lorem-part6{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;      
-    color: #676767;  
+ .slider2 .slick-slide .slick-current .slick-active{
+ display: flex;
+ position: relative;
  }
+ .slider3 .slick-slide .slick-current .slick-active{
+display: flex;
+position: relative;
+ }
+.main-lorem-part6{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;      
+color: #676767; 
+width: 405px; 
+height: 150px;
+margin-top: 35px;
+margin-bottom: 15px;
+margin-left: 39px;
+text-align: left;
+position: relative;
+z-index: 14;
+}
+.slick-initialized .slick-slide{
+display: flex;
+background-color: white;
+box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+padding-top: 20px;
+margin-top: 60px;
+padding-left: 10px;
+margin-right: 20px;
+}
+.slick-next {
+   right: 58px;
+   top: 1px;
+}
+.slick-prev {
+   left: 1200px;
+   top: 1px;
+}
+.slider-staff-name{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;   
+text-transform: capitalize; 
+color: #212529;  
+text-align: left;
+padding-left: 42px;
+margin-bottom: 5px;
+}
+.slider-profession{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;   
+color: #676767; 
+text-align: left;
+padding-left: 42px;    
+}
+.stars-block1 {
+display: flex;
+position: absolute;
+top: 309px;
+left: 1906px;
+gap: 10px;
+}
+.stars-block2 {
+display: flex;
+position: absolute;
+top: 309px;
+left: 2604px;
+gap: 10px;
+}
+.stars-block3 {
+display: flex;
+position: absolute;
+top: 309px;
+left: 3312px;
+gap: 10px;
+}
+.comma-block1{
+   position: relative;
+   width: 60px;
+   height: 110px;
+   top: -246px;  
+}
+.comma-block2{
+   position: relative;
+   width: 60px;
+   height: 110px;
+   top: -246px;  
+}
+.comma-block3{
+   position: relative;
+   width: 60px;
+   height: 110px;
+   top: -246px;  
+}
+.comma1{
+   position: absolute;
+   left: 45px;
+}  
+.comma2{
+   position: absolute;
+   left: 90px;
+}  
+.slick-prev, .slick-next{
+   border: 1px solid #00730C;
+   width: 50px;
+   height: 50px;
+}
+.slick-prev:hover{
+   background-color: #00730C;         
+   background-image: url(images/part-6/arrow-left-white.svg);
+}
+.slick-next:hover{
+   background-color: #00730C;
+   background-image: url(images/part-6/arrow-right-white.svg);   
+}
+.slick-prev:before {
+   content: url(images/part-6/arrow-left-green.svg);
+}
+.slick-next:before {
+   content: url(images/part-6/arrow-right-green.svg);
+}
